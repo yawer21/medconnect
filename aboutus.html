@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Us | Your Startup Name</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">Your Startup Name</div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We understand the challenges you face when trying to schedule a doctor's visit. Long wait times, limited availability, and the hassle of finding the right specialist – it's a common struggle we all share.</p>
+        <p>But imagine a world where you can book a doctor's appointment with just a few clicks, from the comfort of your own home. That's where Your Startup Name comes in!</p>
+        <p>With Your Startup Name, you can:</p>
+        <ul>
+            <li>Search for doctors based on specialization.</li>
+            <li>Book appointments instantly, without the need for long waiting times.</li>
+            <li>Access quality healthcare professionals in your city.</li>
+            <li>Experience the convenience of managing your healthcare on your terms.</li>
+        </ul>
+        <p>Our mission is to simplify your healthcare journey and connect you to the care you deserve.</p>
+    </section>
+
+    <!-- ... (remaining code) ... -->
+
+    <script>
+        function toggleMenu() {
+            var navMenu = document.getElementById("nav-menu");
+            navMenu.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
